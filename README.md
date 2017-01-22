@@ -13,3 +13,5 @@ Bootstrap
 JQuery
 
 and few more libraries like FFMpeg, etc..
+
+I dont have time to write documentation for this right now. So, please try to figure it out yourself. You can file issues in case you have any questions and I will see if I can help.
