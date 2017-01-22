@@ -1,0 +1,726 @@
+/*
+$host_current='/';
+*/
+*
+{
+padding:0px;
+margin:0px;
+}
+
+body
+{
+background-color:white;
+background-image:url("$host_templateimg/bg_diamond.jpg");
+}
+
+::selection
+{
+background-color: #84ca7f;
+color: #000;
+}
+
+::-moz-selection {
+	background: #84ca7f; /* Firefox */
+	color: #000;
+}
+
+#logocont
+{
+float:left;
+}
+
+#logomain
+{
+font-family: "Impact",Impact,Serif;
+font-size: 30px;
+color: black;
+cursor: pointer;
+}
+
+#poweredta
+{
+font-family: "Arial Black",Arial,Serif;
+font-size: 15px;
+color: grey;
+margin-left: 30px;
+}
+
+.taloginmaincont
+{
+clear:both;
+}
+
+.taloginldesc
+{
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+margin-right:5px;
+margin-left:5px;
+font-family:"Calibri";
+font-weight:bold;
+color:black;
+min-height:300px;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+}
+
+.taloginhicon
+{
+clear:both;
+float:left;
+}
+
+.taloginldescenclose
+{
+float:right;
+min-width:20%;
+max-width:55%;
+width:55%;
+}
+
+.taloginrdesc
+{
+float:left;
+}
+
+.taloginbox
+{
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+margin-left:5px;
+margin-right:5px;
+width:300px;
+border-radius:10px;
+}
+
+.taloginboxtitle
+{
+text-align:left;
+font-size:23px;
+font-family:"Calibri";
+font-weight:bold;
+color:#4d90fe;
+text-shadow:1px 1px 1px black;
+border-bottom: 1px dotted #ba0000;
+margin-bottom:10px;
+letter-spacing:2px;
+}
+
+.talboxlabel
+{
+margin-bottom:5px;
+}
+
+.talboxinput input
+{
+margin-bottom:15px;
+height:25px;
+min-width:200px;
+border: 1px solid #ccc;
+-webkit-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+-moz-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;
+height:40px;
+}
+
+
+.taloginmaincont
+{
+min-height:500px;
+padding:20px;
+}
+
+.talboxbtn input
+{
+background-color:#0271bf;
+color:white;
+padding:10px;
+border-radius:5px;
+-webkit-appearance: none;
+border: 1px solid #3079ed;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.1);
+background-color: #4d90fe;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+background-image: linear-gradient(top,#4d90fe,#4787ed);
+cursor:pointer;
+}
+
+.talboxbtn input:hover
+{
+color: #fff;
+background-color: #0271bf;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#2daddc),to(#0271bf));
+background-image: -moz-linear-gradient(#2daddc,#0271bf);
+background-image: -ms-linear-gradient(#2daddc,#0271bf);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2daddc),color-stop(100%,#0271bf));
+background-image: -webkit-linear-gradient(#2daddc,#0271bf);
+background-image: -o-linear-gradient(#2daddc,#0271bf);
+background-image: linear-gradient(#2daddc,#0271bf);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2daddc",endColorstr="#0271bf",GradientType=0);
+border-color: #096eb3;
+}
+
+.talboxlabel
+{
+font-family:"Calibri";
+font-weight:bold;
+font-size:17px;
+}
+
+.taloginquote
+{
+color:brown;
+font-family:"Monotype Corsiva";
+font-size:20px;
+font-weight:bold;
+border-bottom: 1px dotted #ba0000;
+margin-bottom:10px;
+letter-spacing:2px;
+max-width:100%;
+}
+
+.taloginhicon
+{
+float:left;
+margin-right:15px;
+}
+
+.taloginhdesc
+{
+font-weight:normal;
+}
+
+.taloginhenclose
+{
+padding:15px;
+margin:10px;
+clear:both;
+}
+
+.signupcont
+{
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+margin-left:5px;
+margin-right:5px;
+}
+
+#tasignupbtn
+{
+	display:inline;
+	margin-left:10px;
+}
+
+#newtechahoytext
+{
+	font-family:"Calibri";
+	font-weight:600;
+}
+
+.talboxforgotpwd
+{
+	margin-top:10px;
+}
+
+.talboxforgotpwd a
+{
+	color:#1f50ff;
+	text-decoration:none;
+}
+
+.talboxforgotpwd a:hover
+{
+	text-decoration:underline;
+}
+
+.taloginupdatebox
+{
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+margin-left:5px;
+margin-right:5px;
+}
+
+.signupouterbox
+{
+clear:both;
+padding:20px;
+margin:20px;
+margin-top:40px;
+min-height:300px;
+}
+
+
+.tasignupleftcont
+{
+float:left;
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+width:55%;
+min-width:240px;
+}
+
+.tasignuprightcont
+{
+float:left;
+background-color:white;
+background-color:rgba(255,255,255,0.6);
+padding:20px;
+margin:20px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+width:30%;
+}
+
+/* .tasboxinput input */
+/* { */
+/* margin-bottom:15px; */
+/* height:25px; */
+/* min-width:200px; */
+/* border: 1px solid #ccc; */
+/* -webkit-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0; */
+/* -moz-box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0; */
+/* box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0; */
+/* padding:2px; */
+/* } */
+
+.tasboxinput select
+{
+margin-top:6px;
+}
+
+.tasboxbtn input
+{
+background-color:#0271bf;
+color:white;
+padding:10px;
+border-radius:5px;
+-webkit-appearance: none;
+border: 1px solid #3079ed;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0,0.1);
+background-color: #4d90fe;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#4787ed));
+background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+background-image: linear-gradient(top,#4d90fe,#4787ed);
+cursor:pointer;
+}
+
+.tasboxbtn input:hover
+{
+color: #fff;
+background-color: #0271bf;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#2daddc),to(#0271bf));
+background-image: -moz-linear-gradient(#2daddc,#0271bf);
+background-image: -ms-linear-gradient(#2daddc,#0271bf);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2daddc),color-stop(100%,#0271bf));
+background-image: -webkit-linear-gradient(#2daddc,#0271bf);
+background-image: -o-linear-gradient(#2daddc,#0271bf);
+background-image: linear-gradient(#2daddc,#0271bf);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2daddc",endColorstr="#0271bf",GradientType=0);
+border-color: #096eb3;
+}
+
+.tasboxlabel
+{
+float:left;
+font-family:"Calibri";
+font-weight:bold;
+font-size:17px;
+margin-right:10px;
+}
+
+.tasboxlabel:after
+{
+content:":";
+}
+
+.tafieldenclose
+{
+float:left;
+margin-left:10px;
+margin-right:10px;
+width:200px;
+margin-top:5px;
+height:55px;
+}
+
+#tasradiobtns input
+{
+padding:0px;
+margin:0px;
+padding-top:10px;
+min-width:20px;
+max-width:20px;
+border:0px;
+}
+
+.tarsignuplist
+{
+margin-left:10px;
+list-style-type:square;
+}
+
+.tarsignuplist li
+{
+margin-top:10px;
+font-family:"Calibri";
+}
+
+#verifyfieldset fieldset
+{
+padding:10px;
+margin:10px;
+width:80%;
+margin:auto;
+}
+
+#verifyfieldset input
+{
+padding:5px;
+}
+
+.invalidlogin
+{
+color:red;
+text-align: center;
+padding:10px;
+margin:10px;
+}
+
+#talogininvalid
+{
+color:red;
+text-align:center;
+padding:10px;
+margin:10px;
+}
+
+#errmsg
+{
+position:fixed;
+top:20%;
+left:15%;
+z-index:1500;
+background-color:white;
+background-color:rgba(255,255,255,0.95);
+padding-left:5px;
+padding-right:5px;
+padding-bottom:5px;
+color:black;
+width:70%;
+font-family:"Calibri";
+}
+
+#errbox_title
+{
+background-color:#4d90fe;
+color:white;
+font-family:"Caibri";
+font-size:15px;
+padding:10px;
+text-align:center;
+}
+
+#errbox_content
+{
+padding:10px;
+margin:10px;
+}
+
+#errbox_content li
+{
+	list-style-type:square;
+}
+
+#errbox_errcode
+{
+margin-top:30px;
+}
+
+#errbox_errno
+{
+display:inline;
+margin-left:10px;
+}
+
+#err_okaybtn
+{
+padding:10px;
+float:left;
+}
+
+#err_outbtn
+{
+padding:10px;
+float:left;
+}
+
+#taforgotpwdform
+{
+width:40%;
+margin:auto;
+}
+
+#taforgotpwdform fieldset
+{
+padding:10px;
+margin:10px;
+}
+
+#tapwdresform fieldset
+{
+padding:10px;
+margin:10px;
+}
+
+#tapwdresform input[type="password"],#tapwdresform input[type="text"],#tapwdresform input[type="email"]
+{
+width:250px;
+padding:5px;
+}
+
+.taproflabel
+{
+font-weight:bold;
+}
+
+#tauserprof_fname,#tauserprof_mname,#tauserprof_lname
+{
+float:left;
+}
+
+.profdetailcont
+{
+margin:10px;
+}
+
+#tauserprof_email
+{
+clear:both;
+}
+
+#leftprofilecontenclose
+{
+float:left;
+margin-right:10px;
+padding:5px;
+font-family:"Calibri";
+min-width:200px;
+}
+#taprofdetenclose
+{
+float:left;
+min-width:200px;
+width:75%;
+}
+
+.taprofbtn
+{
+float:left;
+width:150px;
+margin-top:10px;
+}
+
+.taprofbtnenclose
+{
+width:150px;
+}
+
+#taprofileheader
+{
+height:100px;
+padding:5px;
+margin:5px;
+}
+
+.taprofilehenclose
+{
+background: #4d90fe;
+color:white;
+text-align:center;
+float:left;
+padding:10px;
+height:80px;
+width:150px;
+line-height:30px;
+font-family:"Calibri";
+font-weight:bold;
+font-size:13px;
+cursor:pointer;
+margin-right:10px;
+margin-bottom:10px;
+}
+
+.taprofilehenclose:hover
+{
+background-color:orange;
+}
+
+.taprofilehlabel
+{
+border-bottom-style:dotted;
+}
+
+.taprofilehcont
+{
+font-size:20px;
+}
+
+#taprofajaxcont
+{
+float:left;
+}
+
+#tauserprof_country
+{
+float:left;
+}
+
+#tauserprof_state
+{
+float:left;
+}
+
+#taprofeditform fieldset
+{
+padding:10px;
+margin:10px;
+}
+
+#taprofeditform input[type="text"]
+{
+padding:5px;
+margin:5px;
+margin-right:10px;
+}
+
+#repactivity_table
+{
+	border-style:none;
+	margin:auto;
+}
+
+#repactivity_table th
+{
+	padding:5px;
+	background-color:#336aa3;
+	font-weight:bold;
+	color:white;
+	font-family:"Calibri";
+	font-weight:bold;
+	font-size:16px;
+}
+
+#repactivity_table td
+{
+	padding:5px;
+	font-family:"Calibri";
+	font-size:15px;
+}
+
+#repactivity_table tr:nth-child(even)
+{
+	background-color:#eee;
+}
+
+#repactivity_table tr:nth-child(odd)
+{
+	background-color:white;
+}
+
+.mainhead_cont fieldset
+{
+	padding:10px;
+}
+
+/*
+HANDHELD CSS
+*/
+
+@media (max-width: 700px) 
+{
+	#taprofdetenclose
+	{
+		width:65%;
+	}
+	
+	.tasignupleftcont
+	{
+		width:90%;
+	}
+	
+	.tasboxinput input
+	{
+		height:50px;
+	}
+	
+	.tafieldenclose
+	{
+		width:100%;
+		height:80px;
+	}
+	
+	.tasignuprightcont
+	{
+		width:90%;
+	}
+	
+	.taloginrdesc
+	{
+		width:100%;
+	}
+	
+	.taloginbox
+	{
+		width:100%;
+	}
+	
+	.talboxinput input
+	{
+		width:100%;
+		padding:10px;
+		height:50px;
+	}
+	
+	.taloginldescenclose
+	{
+		float:right;
+		max-width:100%;
+		width:100%;
+	}
+	
+}
+
+@media (max-width: 900px) 
+{
+	#taprofdetenclose
+	{
+		width:65%;
+	}
+}

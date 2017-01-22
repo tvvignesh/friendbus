@@ -1,0 +1,211 @@
+.pluginitem_enclose
+{
+	background-color: black;
+	color:white;
+	padding:7px;
+	float:left;
+	margin:2px;
+}
+
+.pluginitem_rateup
+{
+	float: left;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+.pluginitem_ratedown
+{
+	float: left;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+.pluginitem_currating
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_share
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_follow
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_date
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_meta
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_more
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_comment
+{
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.pluginitem_morebox,.pluginitem_metabox,.pluginitem_sharebox
+{
+	display: none;
+	font-family: "Century Gothic";
+	font-size:16px;
+}
+
+.pluginitem_commentbox
+{
+	padding:5px;
+	margin:5px;
+	float:left;
+	background-color:lightgrey;
+	display:none;
+}
+
+.pluginitem_pastcommentsbox
+{
+	padding:5px;
+	margin:5px;
+	float:left;
+	width:450px;
+	background-color:lightgrey;
+}
+
+.pluginitem_pastcommentsbox_comcont_poster
+{
+	float:left;
+	width:100px;
+}
+
+.pluginitem_pastcommentsbox_comcont_content
+{
+	float:left;
+	width:350px;
+}
+
+.pluginitem_pastcommentsbox_morecomments,.pluginitem_pastcommentsbox_togglecomments
+{
+	color:#336aa3;
+	font-family:"Calibri";
+	cursor:pointer;
+	font-weight: bold;
+	float:left;
+	margin-right:15px;
+}
+
+.pluginitem_pastcommentsbox_comcont
+{
+	border-bottom-style: solid;
+	border-bottom-color: grey;
+	border-bottom-width: 1px;
+	margin-bottom:15px;
+}
+
+.pluginitem_statusbox
+{
+	padding:3px;
+	text-align:center;
+	float:left;
+	width:455px;
+	margin:2px;
+	margin-left:4px;
+	background-color:lightgrey;
+	background-color:rgba(0,0,0,0.1);
+	display:none;
+}
+
+.dialog_bolded
+{
+	font-weight:bold;
+}
+
+.dialog_validate_statusmsg
+{
+	border: 1px solid transparent; padding: 0.3em;
+}
+
+.pluginitem_rateup:hover,.pluginitem_ratedown:hover,.pluginitem_currating:hover,.pluginitem_share:hover,.pluginitem_more:hover,.pluginitem_follow:hover,.pluginitem_date:hover,.pluginitem_meta:hover,.pluginitem_more:hover,.pluginitem_comment:hover,.pluginitem_morebox_delete:hover,.pluginitem_morebox_edit:hover,.pluginitem_morebox_report:hover,.pluginitem_morebox_markfav:hover,.pluginitem_morebox_viewers:hover,.pluginitem_morebox_audience:hover,.pluginitem_morebox_privacy:hover,.pluginitem_morebox_tags:hover,.pluginitem_morebox_revisions:hover,.pluginitem_morebox_permalink:hover,.pluginitem_sharebox_friends:hover,.pluginitem_sharebox_group:hover,.pluginitem_sharebox_email:hover,.pluginitem_sharebox_facebook:hover,.pluginitem_sharebox_twitter:hover,.pluginitem_sharebox_gplus:hover,.pluginitem_sharebox_linkedin:hover,.pluginitem_sharebox_mobile:hover,.pluginitem_pastcommentsbox_morecomments:hover,.pluginitem_pastcommentsbox_togglecomments:hover
+{
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.clear_float
+{
+	clear:both;
+}
+
+.galleryview_enclose
+{
+	background-color:black;
+	padding:10px;
+	color:white;
+	text-align:center;
+	width:80%;
+	height:550px;
+	margin:auto;
+	z-index:10000;
+	font-family:"Calibri";
+	font-size:14px;
+	overflow:auto;
+}
+
+.galleryview_child_enclose
+{
+	border-style:solid;
+	border-color:grey;
+	border-width:1px;
+	background-color:white;
+	padding:5px;
+	color:black;
+	float:left;
+	margin:5px;
+	width:210px;
+	height:210px;
+	cursor:pointer;
+	font-family:"Century Gothic";
+	font-size:14px;
+	overflow:hidden;
+}
+
+.galleryview_galname
+{
+	font-size:20px;
+	font-family:"Calibri";
+	text-shadow:2px 2px grey;
+}
+
+.galleryview_label
+{
+	height:40px;
+	overflow:hidden;
+}
+
+.galleryview_child_enclose:hover
+{
+	background-color:#eee;
+}

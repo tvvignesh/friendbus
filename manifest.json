@@ -1,0 +1,20 @@
+{
+  "short_name": "Friendbus",
+  "name": "Friendbus - The key to connect",
+  "icons": [
+    {
+      "src": "/master/securedir/m_images/logo_topbar.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/master/securedir/m_images/logo_topbar.png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/master/securedir/m_images/logo_topbar.png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/index.php",
+  "display": "standalone"
+}

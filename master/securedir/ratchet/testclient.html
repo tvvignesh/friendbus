@@ -1,0 +1,25 @@
+<script type="text/javascript">
+var conn = new WebSocket('wss://www.friendbus.com/websocket/');
+conn.onopen = function(e) 
+{
+    console.log("Connection established!");
+    conn.send('Hello World!');
+};
+
+conn.onmessage = function(e)
+{	
+	console.log("MSG RECEIVED");
+    console.log(e.data);
+};
+
+conn.onerror=function(e)
+{
+	console.log("error");
+	console.log(e);
+}
+
+conn.onclose = function (event) 
+{
+	console.log("socket closed");
+}
+</script>

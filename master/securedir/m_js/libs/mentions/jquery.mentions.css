@@ -1,0 +1,37 @@
+.mentions-input {
+    position: relative;
+}
+
+.mentions-input .input {
+    overflow: hidden;
+    position: relative;
+}
+
+.mentions-input .highlighter {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: transparent;
+    overflow: hidden;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.mentions-input .highlighter-content {
+    position: relative;
+}
+
+.mentions-input .highlighter-content strong {
+  font-weight: inherit;
+  background-color: #a3bcea;
+  display: inline;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  padding-right:8px;
+}
+
+[data-mention] {
+background-color: #D9E6FF;
+ filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+ padding-left: 3px;
+ padding-right: 3px;
+}
